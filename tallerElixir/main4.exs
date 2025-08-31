@@ -24,7 +24,7 @@ defmodule Main do
 
   """
   def calcular_valor_hora_extra(salario_base, horas_extras_trabajadas)do
-    ((salario_base/173)*1.5)*horas_extras_trabajadas # 173 son las horas normales laborales en colombia.
+    salario_base/173*1.5*horas_extras_trabajadas # 173 son las horas normales laborales en colombia.
 
   end
 
