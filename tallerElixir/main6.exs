@@ -45,7 +45,7 @@ defmodule Main do
           end
         end
       end
-       {cliente,peso,tipo,tarifa_envio}
+      {cliente,peso,tipo,tarifa_envio}
   end
 
   @doc """
