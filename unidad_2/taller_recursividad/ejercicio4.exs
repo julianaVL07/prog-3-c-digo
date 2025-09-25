@@ -3,7 +3,7 @@ defmodule Buscar do
   Crear una función recursiva que, dado un elemento y una lista, determine si el elemento está presente (true) o no (false).
   """
   def main do
-    elemento= "Andres"
+    elemento= "juan"
     list=["juli","juan","sara"]
     elemento_presente_recursion= elemento_presente_recursion(elemento,list) #Recursión directa, lineal y de cola.
     IO.puts("¿Está #{elemento}? #{elemento_presente_recursion}")
